@@ -82,6 +82,7 @@ To execute this api requested user must be admin (only admin can delete the docu
 METHOD : DELETE
 URL : http://localhost:5000/api/users/b421ee06-ffd5-4d2a-9e34-1d198f68cb5c
 
-## Contact
+## Authorization
 
-Contact information.
+FOR GET, PUT, DELETE end points authencation is required, to get access-token exceute this url:http://localhost:5000/api/users/generate-token/9567545826.
+and pass that access-token in req.headers as Bearer token
